@@ -1,0 +1,11 @@
+<div id="<%= dom_id post %>" class="scaffold_record">
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <p>
+    <%= link_to "Show this post", post %>
+    <%= button_to "Delete post", post, method: :delete %>
+  </p>
+</div>
